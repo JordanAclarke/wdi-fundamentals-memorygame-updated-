@@ -33,6 +33,7 @@ var checkForMatch = function() {
 };
 
 
+
 var flipCard = function() {
 	var cardID = this.getAttribute('data-id');
 	this.setAttribute('src', cards[cardID].cardImage);
@@ -53,3 +54,10 @@ var createBoard = function() {
 	}
 };
 createBoard();
+
+
+
+
+$('#instructions').on('click', function () {
+	alert("Guess the Matching Pair, If Both Card Matches, You Win!");
+})
