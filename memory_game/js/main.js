@@ -56,7 +56,13 @@ var createBoard = function() {
 createBoard();
 
 
-
+let nameInfo = document.querySelector('#user-name')
+let name = prompt("Enter Your Name!")
+if(name === "" || null) {
+	nameInfo.innerHTML= "Player Name: " + "Anonymous"
+} else {
+	nameInfo.innerHTML = "Player Name: " + name 
+}
 
 $('#instructions').on('click', function () {
 	alert("Guess the Matching Pair, If Both Card Matches, You Win!");

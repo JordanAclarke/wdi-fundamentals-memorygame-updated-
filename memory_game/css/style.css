@@ -59,6 +59,7 @@ footer {
 	font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500;
+	text-align: center;
 }
 .copyright {
 	font-family: Raleway;
@@ -82,4 +83,17 @@ footer {
 }
 span {
 	color: orange;
+}
+#title {
+	font-weight: bold;
+}
+
+#user-name {
+	font-family: Raleway;
+}
+#instructions {
+	background-color: #00A6B3;
+	border: 10px solid transparent;
+	text-decoration: underline;
+	font-size: 16px;
 }
